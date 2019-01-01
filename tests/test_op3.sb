@@ -1,0 +1,3 @@
+(bit x, bit y, bit z ) sandbox (bit a, bit b):
+	( x ^ z ) | ( x & y ) -> a
+	a | z -> b

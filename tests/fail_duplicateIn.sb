@@ -1,0 +1,3 @@
+/ duplicate bit in in /
+(bit a, bit a) sandbox (bit s):
+	a -> s

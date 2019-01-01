@@ -1,0 +1,8 @@
+
+/ semant want it to fail for not same size /
+(bit a, bit b, bit cin) fulladder (bit s, bit c):
+	a ^ b ^ cin -> s
+	(a & b) ^ (cin & (a ^ b)) -> c
+
+(bit.4 a, bit.4 b, bit.3 cin) sandbox (bit.4 s, bit.4 c):
+	[a, b, cin] fulladder [s, c]

@@ -1,0 +1,4 @@
+/ works /
+/ not all outputs are assigned /
+( bit a, bit b, bit cin ) sandbox ( bit s, bit c ):
+	a ^ b ^ cin -> s

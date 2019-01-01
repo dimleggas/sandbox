@@ -1,0 +1,3 @@
+/ should fail; function add1 not defined /
+(bit a) sandbox (bit b):
+	[a] add1 [b]

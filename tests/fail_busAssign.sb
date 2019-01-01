@@ -1,0 +1,6 @@
+/ assigning over a bit /
+
+( bit a, bit b, bit c) sandbox ( bit s ):
+	a -> c(0)
+	b -> c(0)
+	c -> s

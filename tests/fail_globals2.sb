@@ -1,0 +1,5 @@
+/ gloabal must be initials as an int /
+s -> bit a const
+
+( bit a ) sandbox ( bit s ):
+	a -> s

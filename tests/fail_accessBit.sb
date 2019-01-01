@@ -1,0 +1,4 @@
+/ works /
+( ) sandbox ( bit x ):
+	bit.4 a
+	a(4) -> x

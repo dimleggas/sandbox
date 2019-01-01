@@ -1,0 +1,2 @@
+() sandbox (bit s):
+	a -> s

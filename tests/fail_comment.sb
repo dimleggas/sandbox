@@ -1,0 +1,6 @@
+/ this test should fail because the comment is never closed /
+
+( ) sandbox ( bit s ):
+
+	/ this comment never closes
+	0 -> s

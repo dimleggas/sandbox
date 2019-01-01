@@ -1,0 +1,7 @@
+/ no function ad /
+
+(bit a, bit b) add (bit s):
+	a + b -> s
+
+(bit a) sandbox (bit s):
+	[a, 0] ad [s]

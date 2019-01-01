@@ -1,0 +1,8 @@
+/ this will fail because variable b in sandbox is larger than the other arguments /
+
+( bit a, bit b, bit cin ) add ( bit s, bit c ):
+	a ^ b ^ cin -> s
+	(a & b) ^ (cin & (a ^ b)) -> c
+
+( bit.4 a, bit.5 b, bit.4 cin ) sandbox ( bit.4 s, bit.4 c ):
+	[ a, b, cin ] add [ s, c ]

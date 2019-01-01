@@ -1,0 +1,5 @@
+/ should fail; not all outputs of sandbox are assigned /
+(bit.4 a, bit.4 b) sandbox (bit.4 s, bit.4 c):
+	10 -> c
+	12 -> bit.4 x
+

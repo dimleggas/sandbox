@@ -1,0 +1,4 @@
+/ REWORK PARSER ERROR /
+/ shold fail; assigns too small of a bus  /
+( bit a.4 ) sandbox ( bit b.5 ):
+	a + 1 -> b

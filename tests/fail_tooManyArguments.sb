@@ -1,0 +1,8 @@
+/ should fail -- too many arguments in bitAdd call /
+
+( bit a ) bitAdd ( bit s ):
+	a ^ 1 -> s
+
+( bit a, bit b ) sandbox ( bit sum ):
+	[ a, b ] bitAdd [ sum ]
+

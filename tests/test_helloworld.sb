@@ -1,0 +1,5 @@
+/ this is a comment /
+
+(bit a, bit b, bit cin) sandbox (bit s, bit c):
+	a ^ b ^ cin -> s
+	(a & b) ^ (cin & (a ^ b)) -> c

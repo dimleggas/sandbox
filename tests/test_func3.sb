@@ -1,0 +1,6 @@
+( bit a, bit b, bit cin ) fulladder ( bit s, bit c):
+	a ^ b ^ cin -> s
+	(a & b) ^ (cin & (a ^ b)) -> c
+
+(bit a, bit b, bit cin) sandbox (bit s, bit c):
+	[a, b, cin] fulladder [ s, c ]

@@ -1,0 +1,4 @@
+/ no sandbox function fail /
+
+( bit a, bit b, bit cin ) add ( bit s, bit c ):
+	a ^ b ^ cin -> s

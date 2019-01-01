@@ -1,0 +1,4 @@
+/ operand sizes do not match /
+( bit a.4, bit b.4 ) sandbox ( bit c.4, bit d.4 ):
+	a -> c
+	b -> d

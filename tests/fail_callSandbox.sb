@@ -1,0 +1,7 @@
+/ fails because you can't call sandbox /
+
+( bit a, bit b ) add ( bit s ):
+	[a] sandbox [s]
+
+(bit a) sandbox (bit s):
+	[a, 0] add [s]

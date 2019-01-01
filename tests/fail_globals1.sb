@@ -1,0 +1,6 @@
+
+/ duplicate global variables /
+1 -> bit a const
+0 -> bit a const
+( bit a ) sandbox ( bit s ):
+	a -> s

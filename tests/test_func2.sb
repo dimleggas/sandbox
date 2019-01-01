@@ -1,0 +1,9 @@
+(bit a, bit b ) add ( bit c ):
+	a + b -> c
+
+(bit a, bit b ) nest ( bit c ):
+	[a, b] add [c]
+
+(bit a, bit b, bit c ) sandbox (bit x, bit y ):
+	[a, b] add [x]
+	c -> y

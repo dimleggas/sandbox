@@ -1,0 +1,4 @@
+/ works /
+( bit a, bit b, bit c) sandbox ( bit x, bit y ):
+	a - b -> x
+	a + c -> y
